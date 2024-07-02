@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.city-image, .vehicle-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.city, .vehicle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.city:hover, .vehicle:hover {
+  transform: scale(1.05);
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.cops-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cop-card {
+  padding: 20px;
+}
+
+.selected {
+  border: 3px solid green;
+}
